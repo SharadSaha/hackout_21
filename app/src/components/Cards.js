@@ -13,13 +13,13 @@ function Cards() {
               src='images/ml.jpg'
               text='Getting you hospital recommendations'
               label='Artificial intelligence'
-              path='/services'
+              path='/'
             />
             <CardItem
               src='images/blockchain.jpg'
               text='Guarantee your treatment with smart contracts!'
               label='Blockchain'
-              path='/services'
+              path='/'
             />
           </ul>
           
