@@ -1,11 +1,12 @@
 import React from 'react';
 import '../../App.css';
 import Footer from '../Footer';
+import HeroSection3 from '../HeroSection3';
 
 export default function Emergency() {
   return (
     <>
-    <h1>EMERGENCY</h1>
+    <HeroSection3 />
     <Footer />
     </>
   )
