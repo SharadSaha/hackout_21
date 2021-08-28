@@ -52,3 +52,7 @@ if __name__ == '__main__':
           validation_data=(test_data, test_label))
 	
 	output = model.predict(test_data)
+	
+	model.save("model.h5")
+
+	
