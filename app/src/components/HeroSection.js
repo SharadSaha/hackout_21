@@ -1,25 +1,33 @@
 import React from 'react';
 import '../App.css';
-import { Button2 } from './Button2';
+import { Button } from './Button';
 import './HeroSection.css';
 import { useHistory } from 'react-router-dom';
-// import { Link } from 'react-router-dom';
 
 function HeroSection() {
-  // const history = useHistory();
+  const history = useHistory();
   return (
     <div className='hero-container'>
-      <img src='/images/emergency.jpg' />
-      <h1>ENSURE YOUR HOSPITAL BED NOW!</h1>
+      <img src='/images/bg.jpg' />
+      <h1>NEED HELP?</h1>
+      <p>Click to book your hospital bed</p>
       <div className='hero-btns'>
-        <Button2
+        <Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-        //   onClick={() => history.push('/emergency')}
+          onClick={() => history.push('/emergency')}
         >
-          GET HOSPITAL RECOMMENDATION
-        </Button2>
+          EMERGENCY HELP
+        </Button>
+        <Button
+          className='btns'
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+          onClick={console.log('hey')}
+        >
+          OUR PROJECT <i className='far fa-play-circle' />
+        </Button>
       </div>
     </div>
   );
