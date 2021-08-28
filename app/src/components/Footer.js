@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -13,7 +13,7 @@ function Footer() {
         <p className='footer-subscription-text'>
           Right treatment at the right time saves LIVES
         </p>
-        <div className='input-areas'>
+        {/* <div className='input-areas'>
           <form>
             <input
               className='footer-input'
@@ -23,13 +23,13 @@ function Footer() {
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
-        </div>
+        </div> */}
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
