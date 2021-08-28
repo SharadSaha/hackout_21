@@ -8,7 +8,8 @@
 .home,
 .about,
 .contact,
-.emergency {
+.emergency
+{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -42,3 +43,4 @@
   color: #fff;
   font-size: 100px;
 }
+
